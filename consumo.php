@@ -9,7 +9,7 @@ $url = "https://api.escuelajs.co/api/v1/users";
 // lectura de la api
 $Json = file_get_contents($url);
 
-// decode es el meto que de codifica el json de la api
+// decode es el meto que de codifica el json de la api 
 $data = json_decode($Json,true);
  
 print_r($data[0]) ;
